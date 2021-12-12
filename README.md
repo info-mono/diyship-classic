@@ -1,6 +1,6 @@
 <p align="center"><a href="https://www.figma.com/file/ivfF5xzAi1zioAkpDHbUyb/DIYship"><img src="https://user-images.githubusercontent.com/43980777/142657083-ec10c6a1-b34b-4517-9110-3d07f7263a63.png"></a></p>
 <p align="center">Cross-shell prompt framework</p>
-<p align="center"><a href="https://github.com/info-mono/diyship/blob/main/LICENSE"><img src="https://img.shields.io/github/license/info-mono/diyship?labelColor=383838&color=585858&style=for-the-badge" alt="License: GPL-3.0"></a> <a href="https://gist.github.com/NNBnh/9ef453aba3efce26046e0d3119dab5a7#development-completed"><img src="https://img.shields.io/badge/development-completed-%23585858.svg?labelColor=383838&style=for-the-badge&logoColor=FFFFFF" alt="Development completed"></a></p>
+<p align="center"><a href="https://github.com/info-mono/diyship-classic/blob/main/LICENSE"><img src="https://img.shields.io/github/license/info-mono/diyship-classic?labelColor=383838&color=585858&style=for-the-badge" alt="License: GPL-3.0"></a> <a href="https://gist.github.com/NNBnh/9ef453aba3efce26046e0d3119dab5a7#development-completed"><img src="https://img.shields.io/badge/development-completed-%23585858.svg?labelColor=383838&style=for-the-badge&logoColor=FFFFFF" alt="Development completed"></a></p>
 
 ## 💡 About
 
@@ -24,14 +24,14 @@
 Option 1: using `curl`
 
 ```sh
-curl https://raw.githubusercontent.com/info-mono/diyship/main/bin/diyship > ~/.local/bin/diyship
+curl https://raw.githubusercontent.com/info-mono/diyship-classic/main/bin/diyship > ~/.local/bin/diyship
 chmod +x ~/.local/bin/diyship
 ```
 
 Option 2: using `git`
 
 ```sh
-git clone https://github.com/info-mono/diyship.git ~/.local/share/diyship
+git clone https://github.com/info-mono/diyship-classic.git ~/.local/share/diyship
 ln -s ~/.local/share/diyship/bin/diyship ~/.local/bin/diyship
 ```
 
@@ -40,13 +40,13 @@ ln -s ~/.local/share/diyship/bin/diyship ~/.local/bin/diyship
 For [`bpkg`](https://github.com/bpkg/bpkg) user:
 
 ```sh
-bpkg install info-mono/diyship
+bpkg install info-mono/diyship-classic
 ```
 
 For [Basher](https://github.com/bpkg/bpkg) user:
 
 ```sh
-basher install info-mono/diyship
+basher install info-mono/diyship-classic
 ```
 
 > _If you can and want to port DIYship to other package managers, feel free to do so._
