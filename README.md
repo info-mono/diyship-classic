@@ -167,7 +167,7 @@ Do to many technical limitation, not every shell support all features:
 | Feature              | Bash | Zsh | Fish | Powershell | Ion | Elvish | Tcsh | Nushell | Xonsh |
 | -------------------- | ---- | --- | ---- | ---------- | --- | ------ | ---- | ------- | ----- |
 | Left prompt          | ✅   | ✅  | ✅   | ✅         | ✅  | ✅     | ✅   | ✅      | ✅    |
-| Right prompt         |      | ✅  | ✅   |            |     | ✅     |      |         |       |
+| Right prompt         |      | ✅  | ✅   |            |     | ✅     |      |         | ✅    |
 | Export current shell | ✅   | ✅  | ✅   | ✅         | ✅  | ✅     | ✅   | ✅      | ✅    |
 | Export status        | ✅   | ✅  | ✅   | ✅         | ✅  |        | ✅   |         | ✅    |
 | Export pipe status   | ✅   | ✅  | ✅   |            |     |        |      |         |       |
